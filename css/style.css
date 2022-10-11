@@ -32,7 +32,7 @@ body {
     color: #2196F3;   
 }
 /*СХОВАВ ВСЮДИ ТОЧКИ ТА ПІДКРЕСЛЕНЯ*/
-.list, .link {
+.list, .link, .link-map {
     list-style: none;
     text-decoration: none;
 }
@@ -56,9 +56,11 @@ body {
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
+/*ТЕДЕФОН ЄМЕІЛ ШАПКА*/
 .auth-nav .link {
     color: var(--primery-text-color);
-    /*font-style: normal;*/
+    font-style: normal;
     font-weight: var(--font-weight-500);
     font-size: 14px;
     line-height: 1.14;
@@ -162,6 +164,34 @@ body {
     letter-spacing: 0.03em;
 
     color:var(--primery-text-color);
+}
+
+/*ФУТЕР*/
+.footer-nav .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+}
+
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+    color:var(--accent-color);
+}
+
+.link-map {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
 }
 
 /*ПОРТФОЛІО СПИСОК ПРОЕКТІВ*/
