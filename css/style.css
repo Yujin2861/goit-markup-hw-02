@@ -129,13 +129,19 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-text-color);
-
 }
 /*заголовок ПЕРЕВАГИ ЗХОВАВ*/ 
 .hide-text {
-    text-indent: 100%;
-    white-space: nowrap;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
     overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important; 
 }
 
 /*заголовок ПЕРЕВАГИ*/
