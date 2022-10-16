@@ -19,7 +19,7 @@ body {
 /*Шапка сайту*/
 
 .logo {
-    color: var(--logo-text-color);
+    color:var(--accent-color);
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -30,8 +30,11 @@ body {
     text-decoration: none;
 }
 
-.logo span {
-    color:var(--accent-color);   
+.page-header .logo span {
+    color:var(--logo-text-color);   
+}
+.footer .logo span {
+    color:var(--hero-text-color);
 }
 /*СХОВАВ ВСЮДИ ТОЧКИ ТА ПІДКРЕСЛЕНЯ*/
 .list, .link, .link-map {
@@ -156,6 +159,7 @@ body {
     text-transform: uppercase;
 
     color:var(--title-text-color);
+    
 }
 
 .feature-list .description {
@@ -222,10 +226,6 @@ body {
 }
 
 /*ПОРТФОЛІО СПИСОК ПРОЕКТІВ*/
-
-.portfolio {
-    background-color: var(--main-bg-color);
-}
 
 .filter-list .title {
     font-weight: 500;
